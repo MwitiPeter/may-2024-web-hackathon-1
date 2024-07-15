@@ -241,6 +241,27 @@ section {
     background: var(--secondary-color);
 }
 
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 5px 0;
+    font-size: 18px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.skills-list li::before {
+    content: "\2714"; /* Unicode character for tick */
+    position: absolute;
+    left: 0;
+    color: green; /* You can change the color as needed */
+    font-weight: bold;
+}
+
+
 /* #skills .skills-list {
     list-style: none;
     display: flex;
