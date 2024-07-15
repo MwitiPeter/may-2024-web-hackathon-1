@@ -241,13 +241,13 @@ section {
     background: var(--secondary-color);
 }
 
-#skills .skills-list {
+/* #skills .skills-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-}
+} */
 
 /* #skills .skills-list li {
     background: var(--primary-color);
