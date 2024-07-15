@@ -249,13 +249,13 @@ section {
     gap: 10px;
 }
 
-#skills .skills-list li {
+/* #skills .skills-list li {
     background: var(--primary-color);
     color: var(--text-dark);
     padding: 10px 20px;
     border-radius: 5px;
     transition: background var(--transition-speed);
-}
+} */
 
 /* #skills .skills-list li:hover {
     background: var(--secondary-color);
